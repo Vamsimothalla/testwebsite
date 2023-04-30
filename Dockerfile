@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:8
 WORKDIR /
 ADD website-0.0.1-SNAPSHOT-plain.jar website-0.0.1-SNAPSHOT-plain.jar
 EXPOSE 8080
